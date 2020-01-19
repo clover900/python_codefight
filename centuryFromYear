@@ -1,0 +1,6 @@
+import math
+def centuryFromYear(year):
+    centuryFromYear= math.ceil(year/100)
+    return centuryFromYear
+    
+centuryFromYear(1905)
